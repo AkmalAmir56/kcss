@@ -1338,9 +1338,7 @@ body {
   min-height: 100vh;
 }
 .cid-qDEdfqjrvS {
-  padding-top: 75px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/en-faizal-2000x1437.jpg");
 }
 @media (min-width: 992px) {
   .cid-qDEdfqjrvS .mbr-figure {
@@ -1356,6 +1354,17 @@ body {
   .cid-qDEdfqjrvS .mbr-text {
     text-align: center;
   }
+}
+.cid-qDEdfqjrvS H1 {
+  color: #ff3366;
+}
+.cid-qDEdfqjrvS .mbr-text,
+.cid-qDEdfqjrvS .mbr-section-btn {
+  color: #232323;
+}
+.cid-qDEdfqjrvS .mbr-text,
+.cid-qDEdfqjrvS .mbr-section-btn B {
+  color: #b2ccd2;
 }
 .cid-qDEoRM4BQO {
   padding-top: 30px;
@@ -1749,12 +1758,12 @@ body {
 }
 .cid-qDEcX6u0I6 .navbar {
   padding: .5rem 0;
-  background: #cccccc;
+  background: #333333;
   transition: none;
   min-height: 77px;
 }
 .cid-qDEcX6u0I6 .navbar-dropdown.bg-color.transparent.opened {
-  background: #cccccc;
+  background: #333333;
 }
 .cid-qDEcX6u0I6 a {
   font-style: normal;
@@ -1838,7 +1847,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qDEcX6u0I6 .dropdown .dropdown-menu {
-  background: #cccccc;
+  background: #333333;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2159,12 +2168,12 @@ body {
 }
 .cid-qDEcX6u0I6 .navbar {
   padding: .5rem 0;
-  background: #cccccc;
+  background: #333333;
   transition: none;
   min-height: 77px;
 }
 .cid-qDEcX6u0I6 .navbar-dropdown.bg-color.transparent.opened {
-  background: #cccccc;
+  background: #333333;
 }
 .cid-qDEcX6u0I6 a {
   font-style: normal;
@@ -2248,7 +2257,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qDEcX6u0I6 .dropdown .dropdown-menu {
-  background: #cccccc;
+  background: #333333;
   display: none;
   position: absolute;
   min-width: 5rem;
