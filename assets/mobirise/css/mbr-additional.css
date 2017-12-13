@@ -582,12 +582,38 @@ a:hover {
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#scrollToTop a i:before {
+  content: '';
+  position: absolute;
+  height: 40%;
+  top: 25%;
+  background: #fff;
+  width: 2px;
+  left: calc(50% - 1px);
+}
+#scrollToTop a i:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  bottom: 30%;
+  transform: rotate(135deg);
+}
 /* Others*/
 .note-check a[data-value=Rubik] {
   font-style: normal;
 }
 .mbr-arrow a {
   color: #ffffff;
+}
+@media (max-width: 767px) {
+  .mbr-arrow {
+    display: none;
+  }
 }
 .form-control-label {
   position: relative;
@@ -1338,7 +1364,7 @@ body {
   min-height: 100vh;
 }
 .cid-qDEdfqjrvS {
-  background-image: url("../../../assets/images/en-faizal-2000x1437.jpg");
+  background-image: url("../../../assets/images/mbr-1620x1080.jpg");
 }
 @media (min-width: 992px) {
   .cid-qDEdfqjrvS .mbr-figure {
@@ -1364,7 +1390,7 @@ body {
 }
 .cid-qDEdfqjrvS .mbr-text,
 .cid-qDEdfqjrvS .mbr-section-btn B {
-  color: #b2ccd2;
+  color: #b1a374;
 }
 .cid-qDEoRM4BQO {
   padding-top: 30px;
@@ -1756,6 +1782,27 @@ body {
 .cid-qDEphIJCaY .navbar-collapse {
   flex-basis: auto;
 }
+.cid-qDIIG5LCXn {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  background: #232323;
+}
+.cid-qDIIG5LCXn .image-block {
+  margin: auto;
+}
+.cid-qDIIG5LCXn figcaption {
+  position: relative;
+}
+.cid-qDIIG5LCXn figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qDIIG5LCXn .image-block {
+    width: 100% !important;
+  }
+}
 .cid-qDEcX6u0I6 .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -2142,8 +2189,8 @@ body {
   flex-basis: auto;
 }
 .cid-qDEeJTRPOR {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 105px;
+  padding-bottom: 30px;
   background-color: #f9f9f9;
 }
 .cid-qDEeJTRPOR h4 {
@@ -2976,7 +3023,7 @@ body {
 .cid-qDEpQgvv0u {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #767676;
+  background-image: url("../../../assets/images/mbr-1622x1080.jpg");
 }
 @media (max-width: 767px) {
   .cid-qDEpQgvv0u .content {
